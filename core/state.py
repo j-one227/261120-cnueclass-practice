@@ -9,3 +9,5 @@ def initialize_state() -> None:
         st.session_state.unlocked_regions = ["triangle_forest"]
     if "completed_missions" not in st.session_state:
         st.session_state.completed_missions = []
+    if "triangle_angle_sum_rewarded" not in st.session_state:
+        st.session_state.triangle_angle_sum_rewarded = False
